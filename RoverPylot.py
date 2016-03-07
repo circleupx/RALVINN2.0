@@ -65,7 +65,7 @@ class RoverControl():
         image = cvimage_to_pygame(cv_image)
 
         # Save the array of bytes into an image file named qr.png
-        fname = 'qr.png'
+        fname = 'qrimage.png'
         fd = open(fname, 'w')
         fd.write(str(self.rover.currentImage))
         fd.close()
