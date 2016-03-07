@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="923d14e0-3a88-4ff3-b134-99c6bc222d4f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rover/blowfish.copy.py" afterPath="" />
+    <list default="true" id="923d14e0-3a88-4ff3-b134-99c6bc222d4f" name="Default" comment="Removed Revolution code, did a little clean up">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qr.png" afterPath="$PROJECT_DIR$/qr.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MPCR_RALVINN.py" afterPath="$PROJECT_DIR$/MPCR_RALVINN.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RoverPylot.py" afterPath="$PROJECT_DIR$/RoverPylot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rover/__init__.py" afterPath="$PROJECT_DIR$/rover/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rover/adpcm.py" afterPath="$PROJECT_DIR$/rover/adpcm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rover/blowfish.py" afterPath="$PROJECT_DIR$/rover/blowfish.py" />
     </list>
     <ignored path="RALVINN2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,15 +24,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RoverPylot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RoverPylot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RoverPylot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.390244">
+            <state vertical-scroll-proportion="0.0">
               <caret line="180" column="48" selection-start-line="180" selection-start-column="48" selection-end-line="180" selection-end-column="48" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qr.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qr.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -539,7 +540,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457323105468</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Removed Revolution code, did a little clean up">
+      <created>1457324450044</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1457324450044</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
@@ -561,7 +568,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8403101" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39379844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39379844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25213677" sideWeight="0.50542635" order="2" side_tool="true" content_ui="tabs" />
@@ -612,7 +619,9 @@
     <MESSAGE value="Using OpenCV to read Camera Feed. Created Class to read QR codes" />
     <MESSAGE value="Created a funtion that decodes qr codes from locally saved file tmp.jpg" />
     <MESSAGE value="RALVINN is now able to read QR codes from Camera Feed" />
-    <option name="LAST_COMMIT_MESSAGE" value="RALVINN is now able to read QR codes from Camera Feed" />
+    <MESSAGE value="Removed Revolution code, did a little clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Revolution code, did a little clean up" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -785,11 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qr.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/turnright.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -875,12 +879,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RoverPylot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.390244">
+        <state vertical-scroll-proportion="0.0">
           <caret line="180" column="48" selection-start-line="180" selection-start-column="48" selection-end-line="180" selection-end-column="48" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qr.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
